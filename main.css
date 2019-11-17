@@ -1,9 +1,7 @@
-button {
-  background-color: yellow;
-}
+
 
 body {
-  background-color: blue;
+  background-color: #d2d0fe;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,13 +11,17 @@ body {
 
 h1 {
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 80px;
   letter-spacing: 2px;
   margin-bottom: 0px;
 }
 
 h2 {
-
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
 }
 
 .inputSection {
@@ -42,4 +44,15 @@ input{
 
 .addOption{
   margin-top: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: white;
+
+
 }
